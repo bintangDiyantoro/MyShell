@@ -105,7 +105,7 @@ StScrollBar StBin#trough {
 }
 
 StScrollBar StButton#vhandle {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(0,0,0,0.3);
     /*border: 2px solid #242424;*/
     border:none;
     box-shadow: 0px 1px 2px rgba(0,0,0,.5);
@@ -113,7 +113,7 @@ StScrollBar StButton#vhandle {
 }
 
 StScrollBar StButton#hhandle {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(0,0,0,0.3);
     /*border: 2px solid #242424;*/
     box-shadow: 0px 1px 2px rgba(0,0,0,.5);
     border-radius: 8px;border:none;
@@ -121,7 +121,7 @@ StScrollBar StButton#hhandle {
 
 StScrollBar StButton#hhandle:hover,
 StScrollBar StButton#vhandle:hover {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.5);
 }
 
 StScrollBar StButton#hhandle:active,
@@ -305,7 +305,7 @@ margin-top:1px;
 
 .nm-dialog-content {
     spacing: 1em; /*space between title to the content*/
-    color:#333;
+    color:#fff;
 }
 
 .nm-dialog-header-hbox {
@@ -317,20 +317,20 @@ margin-top:1px;
 
 .nm-dialog-header-icon {
     icon-size: 32px;
-    color: rgba(38, 50, 56, .9);
+    color: rgba(255, 250, 255, .9);
     padding-bottom: 14px;
 }
 
 .nm-dialog-scroll-view {
 
     border-radius: 6px;
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(100,100,100,0.5);
     border: 1px solid #bcbcbc;
 }
 
 .nm-dialog-header {
     font-weight: normal;
-    color: #333;}
+    color: #fff;}
 
 .nm-dialog-item {
     border-bottom: 1px solid #666;
@@ -338,7 +338,7 @@ margin-top:1px;
     margin-top:4px}
 
 .nm-dialog-item:focus {
-    background-color: #9fa4b2;
+    background-color: #FF6600;
     color:white;}
 
 .nm-dialog-item-box {
@@ -368,9 +368,9 @@ margin-top:1px;
 .app-view-control,
 .button {
     transition-duration:200ms;
-    color:#111;
+    color:#fff;
     border: 1px solid transparent;
-    background-color:#efefef;
+    background-color:#111;
     background-gradient-direction:none;
     box-shadow: 0px 1px 2px rgba(0,0,0,.5);}
 
